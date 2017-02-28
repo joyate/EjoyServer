@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hiredis_cp", "hiredis_cp.vcxproj", "{0E570D2C-70FA-448F-9ECE-8E1909AFD22C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_hiredis_cp", "..\test_hiredis_cp\test_hiredis_cp.vcxproj", "{24092E9B-3A57-41CA-90CC-BFEEE179BDCE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0E570D2C-70FA-448F-9ECE-8E1909AFD22C} = {0E570D2C-70FA-448F-9ECE-8E1909AFD22C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E570D2C-70FA-448F-9ECE-8E1909AFD22C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0E570D2C-70FA-448F-9ECE-8E1909AFD22C}.Debug|Win32.Build.0 = Debug|Win32
+		{0E570D2C-70FA-448F-9ECE-8E1909AFD22C}.Release|Win32.ActiveCfg = Release|Win32
+		{0E570D2C-70FA-448F-9ECE-8E1909AFD22C}.Release|Win32.Build.0 = Release|Win32
+		{24092E9B-3A57-41CA-90CC-BFEEE179BDCE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{24092E9B-3A57-41CA-90CC-BFEEE179BDCE}.Debug|Win32.Build.0 = Debug|Win32
+		{24092E9B-3A57-41CA-90CC-BFEEE179BDCE}.Release|Win32.ActiveCfg = Release|Win32
+		{24092E9B-3A57-41CA-90CC-BFEEE179BDCE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
